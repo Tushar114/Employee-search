@@ -1,3 +1,20 @@
+This is a sample Employee Search App that searches and list the direct and indirect subordinates on the searched employee. 
+This uses React Router for navigation between home and overview page.
+
+#API USED
+http://api.additivasia.io/api/v1/assignment/employees
+
+#Sample Search employees : 
+  "John Hartman",
+  "Samad Pitt",
+  "Amaya Knight",
+  "Leanna Hogg",
+  "Aila Hodgson",
+  "Vincent Todd",
+  "Faye Oneill",
+  "Lynn Haigh",
+  "Nylah Riddle"
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
