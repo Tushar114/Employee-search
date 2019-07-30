@@ -1,10 +1,10 @@
 This is a sample Employee Search App that searches and list the direct and indirect subordinates on the searched employee. 
 This uses React Router for navigation between home and overview page.
 
-# API USED
+## API USED
 http://api.additivasia.io/api/v1/assignment/employees
 
-# Sample Search employees : 
+## Sample Search employees : 
   "John Hartman",<br>
   "Samad Pitt",<br>
   "Amaya Knight",<br>
