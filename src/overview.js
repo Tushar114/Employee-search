@@ -3,6 +3,7 @@ import Indirect from './indirect';
 import {Link, Router} from 'react-router-dom';
 
 const Overview = (props) => {
+  console.log(props);
   
     return (
         <>  
@@ -16,8 +17,8 @@ const Overview = (props) => {
             <ul className="box">
                 <h3>Direct Sub</h3>
                 {
-                  props.location.state.data.directSub && 
-                  props.location.state.data.directSub.map((el,i)=>{
+                  props.location.state.data.directSubs && 
+                  props.location.state.data.directSubs.map((el,i)=>{
                         return (
                             
                             <li key={i}>
@@ -28,7 +29,7 @@ const Overview = (props) => {
                 }
                 
             </ul>
-           {props.location.state.data.indirectSub && <Indirect indirectdata={props}/>} 
+           {props.location.state.data.inDirectSubs && <Indirect indirectdata={props}/>} 
                 </div>
            <div className="clear">
                
